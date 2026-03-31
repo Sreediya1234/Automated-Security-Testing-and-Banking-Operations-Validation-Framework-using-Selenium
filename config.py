@@ -1,12 +1,12 @@
 """
-Configuration file - Optional
+Configuration file 
 """
 
-# Your Guru99 login credentials (REQUIRED - UPDATE THESE!)
+# Guru99 login credentials 
 USERNAME = "mngr655650"  
 PASSWORD = "apebEqa"  
 
-# Test data (optional)
+# Test data 
 CUSTOMER_NAME = "John Doe"
 CUSTOMER_DOB = "01011990"
 INITIAL_DEPOSIT = "10000"
