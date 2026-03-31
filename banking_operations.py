@@ -1,6 +1,5 @@
 """
 Banking Operations Module
-Complete updated version with Mini Statement (fixes HTTP 500 error)
 """
 
 from selenium.webdriver.common.by import By
