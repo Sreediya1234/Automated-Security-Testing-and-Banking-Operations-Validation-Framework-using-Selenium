@@ -1,6 +1,5 @@
 """
 Main Program - Secure Banking Automation Test
-Complete updated version with Mini Statement and PDF Report Generation
 """
 
 from selenium import webdriver
