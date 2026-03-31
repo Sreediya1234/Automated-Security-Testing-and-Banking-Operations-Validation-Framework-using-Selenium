@@ -7,9 +7,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# IMPORTANT: Replace these with your actual credentials
-USERNAME = "mngr655650"  # ← CHANGE THIS to your username
-PASSWORD = "your_password_here"  # ← CHANGE THIS to your password
+# User credentials
+USERNAME = "mngr655650"  # Username
+PASSWORD = "apebEqa"  # Password
 
 
 def login(driver):
