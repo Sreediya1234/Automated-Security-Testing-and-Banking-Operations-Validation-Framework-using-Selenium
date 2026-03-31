@@ -41,42 +41,6 @@ This project implements an automated testing framework for security vulnerabilit
 | **Package Manager** | pip |
 | **OS** | Windows 11 |
 
-## System Architecture
-┌─────────────────────────────────────────┐
-│      Test Execution Layer (main.py)      │
-│   - Orchestrates test sequence           │
-│   - Manages browser session              │
-│   - Handles errors                       │
-└─────────────────────────────────────────┘
-                    ▼
-┌─────────────────────────────────────────┐
-│      Business Logic Layer                │
-│   - Login Module                         │
-│   - Banking Operations Module            │
-│   - Security Tests Module                │
-└─────────────────────────────────────────┘
-                    ▼
-┌─────────────────────────────────────────┐
-│      Utility Layer (report_generator.py) │
-│   - Screenshot aggregation               │
-│   - PDF report generation                │
-│   - Result statistics                    │
-└─────────────────────────────────────────┘
-                    ▼
-┌─────────────────────────────────────────┐
-│      Selenium WebDriver Layer            │
-│   - Element location (ID, XPath, CSS)    │
-│   - Wait strategies                      │
-│   - Browser event handling               │
-└─────────────────────────────────────────┘
-                    ▼
-┌─────────────────────────────────────────┐
-│      Browser Layer (Microsoft Edge)      │
-│   - Renders application UI               │
-│   - Executes client-side scripts         │
-│                                          │
-└─────────────────────────────────────────┘
-
 ## Test Execution Flow
 
 1. Initialization: WebDriver setup, directory creation.
